@@ -22,6 +22,12 @@ _`Début du projet le 20/07/2025`_
 
 Ce script PHP permet de détecter et corriger les incohérences entre les versions des modules enregistrées en base de données PrestaShop et celles présentes physiquement dans le dossier `/modules` sur le serveur FTP.
 
+### 🎯 Pourquoi j’ai créé ce script ?
+
+Suite à une mise à jour automatique sur une installation neuve de PrestaShop 9, j’ai constaté des incohérences entre les versions des modules enregistrées en base de données et celles présentes sur le FTP.
+Cela provoquait des erreurs critiques dans le back-office.
+Pour éviter ces blocages et corriger rapidement ces désynchronisations, j’ai développé ce script PHP capable d’analyser, comparer et corriger automatiquement les versions des modules.
+
 #### 🔁 Fonctionnement
 
 * Analyse les versions des modules en base et sur FTP  
